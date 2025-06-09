@@ -1,0 +1,1 @@
+wanita = "i love you putri"

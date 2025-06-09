@@ -1,0 +1,1 @@
+data = "putri merupakan wanita tercantik"

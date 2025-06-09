@@ -1,0 +1,1 @@
+print("putri, andai kamu tau bahwa disini aku sangat mencintaimu")
