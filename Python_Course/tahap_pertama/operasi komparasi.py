@@ -62,3 +62,13 @@ print('nilai x =',x,'id = ',hex(id(x)))
 print('nilai y =',y,'id = ',hex(id(x)))
 hasil = x is not y
 print('x is y =',hasil)
+
+
+# ini ilmu baru
+# jadi kita bisa membuat agar string didalam string itu menjadi string saja, maksudnya adlaah
+print('C:\\user\jamal') # C:\user\jamal
+
+# tapi bisa juga seperti ini, jadi kita tidak perlu mneggunakan escape karakter \
+# tapi
+print(r'C:\new folder\t\b\t\s\c') # C:\new folder\t\b\t\s\c
+# nah berati program akna menganggap bahwa seluruh string ini adalah raw string atau string mentah atau string saja
