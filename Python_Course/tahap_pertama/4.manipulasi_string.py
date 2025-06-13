@@ -4,6 +4,8 @@
 # jadi kalo immutable itu artinya tipe datanya yang tidak bisa di ubah, tapi kalo misalkan kita ubah, maka itu artinya kita membuat yang baru contohnya int, float, str, tuple, frozenset
 # kalo mutable itu artinya tipe data yang bisa diubah seteah di deklarasikan list, dict, set, bytearray
 
+# mutabble berati datanya diubah tpai tidak mengganti alamat aslinya
+
 a = 10
 print(id(a))  # Alamat memori a
 # jadi bakalan di timpa
@@ -113,7 +115,7 @@ data_kontak = [
 
 
 for entry in data_kontak:
-    nama_mentah, email_mentah = entry.strip().split(",")
+    nama_mentah, email_mentah = entry.strip().split(",") # disini berati nilai dari entry adalaj ["john", "email"]
     # emailDoang = email_mentah.index("@") // ini juga bisa
     emailDoang = email_mentah.replace(email_mentah[email_mentah.find("@"):],"@gmail.com") # ini juga bisa
     print(emailDoang)

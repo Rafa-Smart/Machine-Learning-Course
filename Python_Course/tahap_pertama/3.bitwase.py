@@ -29,8 +29,11 @@ print("============")
 d = a << 2  # Geser 2 posisi ke kiri
 # a itu kan 000000110 => jadi 00011000, jadi 0nya geser ke kiri sebanyak n posisi
 # print("a << 2 =", bin(d), "=", d)  # 24 = 16 + 8
-print("a << 2 =", format(d, "08b"), "=", d)  # 24 = 16 + 8
+print("a << 2 =", format(d, "08b"), "=", d)  # 24 = 16 + 8 sama aja 00011000
 
+print("ini tes aja")
+# jadi dari pada pake format mending pake ini 
+print(f"{d:08b}") # 00011000
 # kesimpulan
 # a << 1 = a * 2
 # a << 2 = a * 4
