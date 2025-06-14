@@ -56,7 +56,7 @@ print("========================")
 
 # jadi [stepAwal:stepAkhir:Lewatan]
 
-# ini penting nih, jadi kalo slicing itu, stepAkhirnya juga akan terambil
+
 
 objekRange1 = range(1,11)
 print(objekRange1)  # ini akan menghasilkan objek range(1, 11)
