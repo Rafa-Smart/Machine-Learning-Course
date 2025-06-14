@@ -117,7 +117,9 @@ data_kontak = [
 for entry in data_kontak:
     nama_mentah, email_mentah = entry.strip().split(",") # disini berati nilai dari entry adalaj ["john", "email"]
     # emailDoang = email_mentah.index("@") // ini juga bisa
-    emailDoang = email_mentah.replace(email_mentah[email_mentah.find("@"):],"@gmail.com") # ini juga bisa
+    emailDoang = email_mentah.replace(email_mentah[email_mentah.find("@"):],
+    # (ini juga bisa dilakukan di js)
+    "@gmail.com") # ini juga bisa
     print(emailDoang)
     nama_bersih = nama_mentah.strip().title()
     email_bersih = email_mentah.strip().lower()

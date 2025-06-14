@@ -54,3 +54,7 @@ print(f"genap {[i for i in range(1,11) if i % 2 == 0]}") # genap [2, 4, 6, 8, 10
 print("===============")
 
 print(f"data sebelum = \n{[ i for i in range(1,11)]}\ndata setelah hapus 5\n{[j for j in [x for x in range(1,11)] if j != 5]}") 
+
+
+print("===============")
+print(f"data -> {[f"mangga {i}" for i in range(1,10+1)]}")
