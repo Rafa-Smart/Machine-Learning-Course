@@ -14,3 +14,8 @@ def rotasi_kanan(data, posisi):
     print(data)
 
 rotasi_kanan([1, 2, 3, 4, 5], 2)
+
+print(list)
+
+matrix = [[i * j for j in range(3)] for i in range(3)]
+print(matrix)

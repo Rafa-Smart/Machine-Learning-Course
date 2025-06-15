@@ -2,7 +2,7 @@
 
 
 # jadi kalo immutable itu artinya tipe datanya yang tidak bisa di ubah, tapi kalo misalkan kita ubah, maka itu artinya kita membuat yang baru contohnya int, float, str, tuple, frozenset
-# kalo mutable itu artinya tipe data yang bisa diubah seteah di deklarasikan list, dict, set, bytearray
+# kalo mutable itu artinya tipe data yang bisa diubah setelah di deklarasikan list, dict, set, bytearray
 
 # mutabble berati datanya diubah tpai tidak mengganti alamat aslinya
 

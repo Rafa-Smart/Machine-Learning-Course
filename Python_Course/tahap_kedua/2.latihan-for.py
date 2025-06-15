@@ -27,7 +27,7 @@ os.system("cls")
 # # cara saya
 # for i in range(tinggi):
 #     print(" "*(tinggi - (tinggi - i)),end="")
-#     for j in range(tinggi*2-i*2-1):
+#     for j in range(tinggi*2-(2*i)-1):
 #         print("*",end="")
 #     print()
 
